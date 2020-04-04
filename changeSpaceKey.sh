@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 # args: 
 # [1] = entity file to change 
 # [2] = OLDKEY (UPPER)
