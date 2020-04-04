@@ -1,0 +1,40 @@
+--upper---
+spaceKey=NEWKEY
+[NEWKEY:
+key=NEWKEY]
+<spaceKey>NEWKEY</spaceKey>
+ri:space-key="NEWKEY"
+ri:space-key=NEWKEY
+<ac:parameter ac:name="spaces">NEWKEY</ac:parameter>
+<ac:parameter ac:name="spaceKey">NEWKEY</ac:parameter>
+[CDATA[NEWKEY]
+spaceKey=NEWKEY
+[NEWKEY:
+key=NEWKEY]
+<property name="lowerDestinationSpaceKey"><![CDATA[newkey]]></property>
+<property name="lowerKey"><![CDATA[NEWKEY]]></property>
+>space:NEWKEY<
+[CDATA[{"spaceKey":"NEWKEY"
+space = &quot;NEWKEY&quot;
+"spaceKey":"NEWKEY"
+---lower---
+spaceKey=newkey
+[newkey:
+key=newkey]
+<spaceKey>newkey</spaceKey>
+ri:space-key="newkey"
+ri:space-key=newkey
+<ac:parameter ac:name="spaces">newkey</ac:parameter>
+<ac:parameter ac:name="spaceKey">newkey</ac:parameter>
+[CDATA[newkey]
+spaceKey=newkey
+[newkey:
+key=newkey]
+<property name="lowerDestinationSpaceKey"><![CDATA[newkey]]></property>
+<property name="lowerKey"><![CDATA[newkey]]></property>
+>space:newkey<
+[CDATA[{"spaceKey":"newkey"
+space = &quot;newkey&quot;
+"spaceKey":"newkey"
+---special---
+<property name="lowerDestinationSpaceKey"><![CDATA[newkey]]></property>
